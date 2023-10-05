@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="136dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/img_3"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/button_1"
+            android:backgroundTint="@color/teal_700"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:layout_marginStart="20dp"
+            android:text="@string/button_2"
+            app:cornerRadius="15sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="35dp"
+        android:text="@string/button"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/right"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/left"
+        app:cornerRadius="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_gravity="start"
+            android:textSize="35sp"
+            android:text="@string/lt" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center"
+            android:text="@string/select_your_car" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_gravity="end"
+            android:textSize="35sp"
+            android:text="@string/gt" />
+    </LinearLayout>
+
+</LinearLayout>

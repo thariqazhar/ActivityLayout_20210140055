@@ -5,4 +5,12 @@
     <string name="thariq_azhar">Thariq Azhar</string>
     <string name="koenigsegg_regera">Koenigsegg Regera</string>
     <string name="view_more">View more</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="button">Button</string>
+    <string name="select_your_car">Select your car</string>
+    <string name="gt"><![CDATA[>]]></string>
+    <string name="lt"><![CDATA[<]]></string>
 </resources>
