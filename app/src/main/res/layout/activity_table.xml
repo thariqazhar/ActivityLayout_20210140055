@@ -57,10 +57,13 @@
             android:textSize="22sp" />
 
         <EditText
-            android:id="@+id/editTextEnterPhone"
-            android:layout_height="48dp"
-            android:layout_column="1"
-            android:hint="@string/enter_your_phone_number" />
+            android:id="@+id/editTextPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="@string/enter_your_phone_number"/>
+
     </TableRow>
 
     <TableRow
