@@ -13,4 +13,11 @@
     <string name="select_your_car">Select your car</string>
     <string name="gt"><![CDATA[>]]></string>
     <string name="lt"><![CDATA[<]]></string>
+    <string name="name">Name:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="phone">Phone:</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="address">Address:</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="submit_2">Submit</string>
 </resources>
